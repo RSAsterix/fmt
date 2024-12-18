@@ -2070,7 +2070,7 @@ auto get_iterator(buffer<T>&, OutputIt out) -> OutputIt {
 }
 
 // This type is intentionally undefined, only used for errors.
-template <typename T, typename Char> struct type_is_unformattable_for;
+template <typename T, typename Char> struct type_is_unformattable_for{};
 
 template <typename Char> struct string_value {
   const Char* data;
